@@ -1,0 +1,19 @@
+.categories-wapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.categori-parant{
+display: flex;
+gap: 50px;
+justify-content: center;
+
+}
+.categori-parant li{
+list-style: none;
+cursor: pointer;
+font-size: 17px;
+color: #757575;
+}
+.categories-wapper{
+    padding-top: 35px;
+}

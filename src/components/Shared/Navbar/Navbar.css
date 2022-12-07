@@ -1,0 +1,42 @@
+.wapper{
+    width: 1200px;
+    margin :0 auto;
+    padding-top: 24px;
+}
+.logo{
+    height: 30px !important;
+    width: 100%;
+}
+
+.searchBar input[type=submit] {
+    border: 0;
+    font-size: 0;
+    width: 17px;
+    
+    height: 17px;
+    background: url("https://darinka.design/median/wp-content/themes/dk-median/images/search.svg") no-repeat center 55%;
+}
+
+.searchBar input[type=search] {
+    border: 0;
+    opacity: 0.5;
+    width: 120px;
+    outline: none;
+}
+
+
+.login{
+    color: #58BE7D;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+.signUp-btn{
+    text-decoration: none;
+    color: #58BE7D;
+    border: 1px solid #58BE7D;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
