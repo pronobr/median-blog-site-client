@@ -1,5 +1,11 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 import '../Categories/Categories.css'
+import { Pagination } from "swiper";
 const Categories = () => {
     const category =["Home","UI/UX Design","Web Development","Typography","Freelancing","Lifestyle","About Page","More Layouts"]
     return (
@@ -11,6 +17,26 @@ const Categories = () => {
                     })
                 }
             </div>
+
+            <div className="responsive-categories">
+            <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        {
+                    category.map(items =>{
+                        return <SwiperSlide className="slider-item">{items}</SwiperSlide>
+                    })
+                }
+      </Swiper>
+            </div>
+
+
         </div>
     );
 };

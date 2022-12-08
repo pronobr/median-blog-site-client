@@ -40,3 +40,15 @@
     font-size: 17px;
     font-weight: 400;
 }
+
+
+@media only screen and (max-width: 600px) {
+    
+    .wapper{
+        width: 100%;
+    }
+    .login-container{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+  }

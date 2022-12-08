@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
       <div className='searchBar navbar-nav ms-auto mb-2 mb-lg-0'>
-      <form role="search" method="get" class="search-form me-3" action="https://darinka.design/median/">
+      <form role="search" method="get" class="search-form py-2 me-2" action="https://darinka.design/median/">
 				<label>
 					<input type="search" class="search-field" placeholder="Search …" value="" name="s"/>
 				</label>
